@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:7f1d1d,100:b91c1c&height=200&section=header&text=Vaibhav%20Tripathi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Developer%20%7C%20CSE%20Undergrad&descAlignY=58&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:1a0000&height=220&section=header&text=VAIBHAV%20TRIPATHI&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Java%20Developer%20%7C%20CSE%20Undergrad%20%7C%20PSIT%20Kanpur&descAlignY=55&descSize=18"/>
 
-<h3>☕ Java Developer · CSE Undergraduate (3rd Year) @ PSIT Kanpur</h3>
-
-<p align="center">
-Building with <b>Java · JavaScript · Python · SQL</b> | Full-Stack with <b>React · Node.js</b> | 300+ DSA Problems Solved | Team Builder on <b>RailSage AI</b>
-</p>
+<a href="https://github.com/indeedvaibhav">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%E2%98%95+Java+Developer+%7C+DSA+Grinder;%3C%2F%3E+Full-Stack+with+React+%2B+Node.js;%F0%9F%9A%80+Building+RailSage+AI+with+the+squad;%F0%9F%94%A5+300%2B+Problems+Solved+on+LeetCode" alt="Typing SVG" />
+</a>
 
 <p align="center">
   <a href="https://vaibhav-portfolio-o412.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-7F1D1D?style=for-the-badge&logo=vercel&logoColor=white"/></a>
@@ -16,11 +14,20 @@ Building with <b>Java · JavaScript · Python · SQL</b> | Full-Stack with <b>Re
   <a href="mailto:indeedvaibhav@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-DC2626?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=indeedvaibhav&style=flat-square&color=B91C1C&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/github/followers/indeedvaibhav?style=flat-square&color=7F1D1D&label=FOLLOWERS&logo=github"/>
-<img src="https://img.shields.io/github/stars/indeedvaibhav?style=flat-square&color=DC2626&label=STARS&logo=github"/>
+<img src="https://komarev.com/ghpvc/?username=indeedvaibhav&style=for-the-badge&color=B91C1C&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/github/followers/indeedvaibhav?style=for-the-badge&color=7F1D1D&label=FOLLOWERS&logo=github"/>
+<img src="https://img.shields.io/github/stars/indeedvaibhav?style=for-the-badge&color=DC2626&label=STARS&logo=github"/>
+
+<br/>
+
+![](https://img.shields.io/badge/status-online%20%F0%9F%94%B4-B91C1C?style=for-the-badge)
+![](https://img.shields.io/badge/currently-shipping%20code-7F1D1D?style=for-the-badge)
 
 </div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
 
 <br/>
 
@@ -47,6 +54,23 @@ currently:
   building: "React + Node.js powered web applications"
   solving: "LeetCode, daily"
 ```
+
+<br/>
+
+## ⚡ Self-Rated Proficiency
+
+<div align="center">
+
+| Skill | Comfort Level |
+|---|---|
+| Java | ●●●●● |
+| DSA (Java) | ●●●●○ |
+| JavaScript | ●●●●○ |
+| React / Node.js | ●●●○○ |
+| SQL | ●●●○○ |
+| Python | ●●○○○ |
+
+</div>
 
 <br/>
 
@@ -172,11 +196,29 @@ currently:
 
 <br/>
 
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=indeedvaibhav&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8"/>
+</p>
+
+<br/>
+
 ## 📈 Contribution Activity
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=indeedvaibhav&theme=redical&hide_border=true&bg_color=0D1117&color=DC2626&line=B91C1C&point=C9D1D9"/>
 </p>
+
+<br/>
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/indeedvaibhav/indeedvaibhav/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+> ⚙️ This animated snake needs a one-time GitHub Action setup in this repo — instructions below.
 
 <br/>
 
@@ -195,6 +237,22 @@ currently:
 
 <br/>
 
+## 🐍 Enabling the Snake Animation
+
+<details>
+<summary><b>Click to expand setup steps (one-time, ~2 minutes)</b></summary>
+
+<br/>
+
+1. In this repo, go to **Actions → New workflow → set up a workflow yourself**.
+2. Name the file `snake.yml` and paste in the [Platane/snk](https://github.com/Platane/snk) action config (dark theme, output branch `output`).
+3. Commit — the action will run automatically on a schedule and generate the snake SVG.
+4. The image link above will start rendering once the action's first run completes.
+
+</details>
+
+<br/>
+
 ## 📧 Connect With Me
 
 <p align="center">
@@ -208,8 +266,10 @@ currently:
 
 <div align="center">
 
-*"Code is compiled discipline."*
+### 🔴 "Code is compiled discipline."
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:b91c1c,50:7f1d1d,100:1a0000&height=120&section=footer"/>
+![](https://img.shields.io/badge/Thanks%20for%20stopping%20by-B91C1C?style=for-the-badge)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:0a0000&height=150&section=footer"/>
 
 </div>
