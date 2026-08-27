@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:1a0000&height=220&section=header&text=VAIBHAV%20TRIPATHI&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Java%20Developer%20%7C%20CSE%20Undergrad%20%7C%20PSIT%20Kanpur&descAlignY=55&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:1a0000&height=220&section=header&text=VAIBHAV%20TRIPATHI&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=CSE%20Undergraduate%20%7C%20Java%20%26%20DSA%20%7C%20PSIT%20Kanpur&descAlignY=55&descSize=18"/>
 
 <a href="https://github.com/indeedvaibhav">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%E2%98%95+Java+Developer+%7C+DSA+Grinder;%3C%2F%3E+Full-Stack+with+React+%2B+Node.js;%F0%9F%9A%80+Building+RailSage+AI+with+the+squad;%F0%9F%94%A5+300%2B+Problems+Solved+on+LeetCode" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=CSE+Undergraduate+%7C+PSIT+Kanpur;Java+%2B+DSA+%7C+277%2B+Problems+Solved;Full-Stack+with+React+%2B+Node.js;Built+RailSage+AI+with+the+squad" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -33,26 +33,26 @@
 
 ## 🧠 About Me
 
-☕ Java Developer & CSE Undergrad — 3rd Year, PSIT Kanpur
+🎓 3rd-year CSE undergrad at PSIT Kanpur
 
-🚀 Building full-stack projects with **React, Node.js**, backed by strong DSA fundamentals in **Java**
+☕ My core strength is **Java** — I use it for DSA and problem solving, with 277+ problems solved on LeetCode
 
-🧩 300+ problems solved across LeetCode, with active daily-streak badges
+🚀 I build full-stack web apps with **React, Node.js, and Express**, and I've deployed real projects (not just tutorials)
 
-🤝 Collaborated on **RailSage AI**, an AI-powered railway operations command center built for the FAR AWAY Hackathon 2026
+🤝 Collaborated on **RailSage AI**, a team hackathon project for FAR AWAY Hackathon 2026 — my focus was the [insert your specific part, e.g. frontend dashboard / map integration]
 
-🛠️ Comfortable across the stack — from Java-based problem solving to React/Node full-stack builds
+📚 Currently strengthening **SQL** and getting into the basics of **Machine Learning** alongside coursework
 
-📞 Open to Software Engineering opportunities and collaborative projects
+📞 Open to internships and collaborative/open-source projects
 
 <br/>
 
 ```yaml
-role: "Java Developer | CSE Undergraduate"
+identity: "CSE Undergraduate | Java & DSA | Full-Stack Development"
 currently:
-  learning: "Advanced DSA & Full-Stack System Design"
-  building: "React + Node.js powered web applications"
-  solving: "LeetCode, daily"
+  learning: "Machine Learning fundamentals, advanced SQL"
+  building: "React + Node.js web applications"
+  practicing: "DSA in Java, daily"
 ```
 
 <br/>
@@ -94,35 +94,37 @@ currently:
 <table align="center">
   <tr>
     <th>Languages</th>
-    <th>Frontend</th>
-    <th>Backend</th>
-    <th>Tools & Platforms</th>
+    <th>Web Dev</th>
+    <th>Tools</th>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=java" width="32"/><br/>Java</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=react" width="32"/><br/>React</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="32"/><br/>Node.js</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=git" width="32"/><br/>Git</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=js" width="32"/><br/>JavaScript</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=html" width="32"/><br/>HTML/CSS</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=express" width="32"/><br/>Express</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="32"/><br/>Node.js</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=github" width="32"/><br/>GitHub</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=python" width="32"/><br/>Python</td>
-    <td align="center"></td>
-    <td align="center"></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=ts" width="32"/><br/>TypeScript</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=express" width="32"/><br/>Express</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=idea" width="32"/><br/>IntelliJ</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="32"/><br/>SQL</td>
-    <td align="center"></td>
-    <td align="center"></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=python" width="32"/><br/>Python</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs" width="32"/><br/>Next.js</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="32"/><br/>VS Code</td>
   </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="32"/><br/>SQL</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html" width="32"/><br/>HTML/CSS</td>
+    <td align="center"></td>
+  </tr>
 </table>
+
+<p align="center"><sub>Currently learning: Machine Learning fundamentals</sub></p>
 
 <br/>
 
@@ -132,32 +134,51 @@ currently:
 
 | Repository | Description |
 |---|---|
-| 🚂 **[railsage-ai](https://github.com/indeedvaibhav/railsage-ai)** | AI-powered railway operations command center — team project for FAR AWAY Hackathon 2026 |
-| 💼 **[poertfolio](https://github.com/indeedvaibhav/poertfolio)** | Personal portfolio site — Next.js |
-| ✅ **[task-tracker](https://github.com/indeedvaibhav/task-tracker)** | Task tracking web app |
-| 💻 **[LeetCode](https://github.com/indeedvaibhav/LeetCode)** | Auto-synced repo of my LeetCode submissions |
-| 🌐 **[PRODIGY_WD_01](https://github.com/indeedvaibhav/PRODIGY_WD_01)** | Web development task — Prodigy InfoTech internship track |
-| 🔱 **[hydradb](https://github.com/indeedvaibhav/hydradb)** | Fork of HydraDB — a fast graph database on object storage |
+| 🚂 **[railsage-ai](https://github.com/indeedvaibhav/railsage-ai)** | AI-assisted railway operations dashboard — team project, FAR AWAY Hackathon 2026 |
+| 💼 **[poertfolio](https://github.com/indeedvaibhav/poertfolio)** | Personal portfolio — Next.js + TypeScript, deployed on Vercel |
+| ✅ **[task-tracker](https://github.com/indeedvaibhav/task-tracker)** | Task management app — independent full-stack project |
+| 💻 **[LeetCode](https://github.com/indeedvaibhav/LeetCode)** | Auto-synced repo of my LeetCode submissions in Java |
 
 </div>
 
-<br/>
-
-## 🚀 Featured Project
+<sub>PRODIGY_WD_01 and hydradb (fork) are kept on my profile but not pinned — the first is an internship task exercise, the second is a repo I forked to read the codebase, not something I've contributed to.</sub>
 
 <br/>
 
-### RailSage AI — Autonomous Railway Operations Assistant *(Team Project)*
+## 🚀 Featured Projects
+
+<br/>
+
+### RailSage AI — Railway Operations Dashboard *(Team Project)*
 
 🔗 **Live:** [railsage-ai.vercel.app](https://railsage-ai.vercel.app) · **Repo:** [View Source](https://github.com/indeedvaibhav/railsage-ai)
 
-- Built an AI-powered railway operations command center for the **FAR AWAY Hackathon 2026**, as part of a team, using **React 19, Vite, Node.js, Express, Leaflet, and GSAP**.
-- Integrated the **Anthropic Claude API** to power a multi-step reasoning feed, giving operators visibility into each AI-driven decision as it happens.
-- Implemented **live map-based tracking** with **Leaflet**, visualizing train positions and route data in real time.
-- Added **multilingual announcement support** across English, Hindi, and Japanese.
-- Used **GSAP** for smooth motion-driven UI transitions across a data-dense operations dashboard.
+Built for the **FAR AWAY Hackathon 2026** as part of a team, using **React 19, Vite, Node.js, Express, Leaflet, and GSAP**.
 
-> More projects coming soon — this section will grow as I push new repos. 🔧
+- Integrated the **Anthropic Claude API** to power a step-by-step reasoning feed, so operators could see why the system suggested an action instead of a black-box output
+- Implemented **live map-based tracking** with **Leaflet**, rendering train positions and route data in real time
+- Added **multilingual announcement support** across English, Hindi, and Japanese
+- Used **GSAP** for UI transitions across a data-dense operations dashboard
+
+<br/>
+
+### task-tracker — Task Management App
+
+🔗 **Repo:** [View Source](https://github.com/indeedvaibhav/task-tracker)
+
+An independent full-stack project built with **JavaScript, React, and Node.js** to practice end-to-end CRUD workflows outside a hackathon setting.
+
+> *(Add 1–3 real technical highlights here — e.g. how you handled state, a specific bug you solved, or a feature you're proud of)*
+
+<br/>
+
+### poertfolio — Personal Portfolio
+
+🔗 **Live:** [vaibhav-portfolio-o412.vercel.app](https://vaibhav-portfolio-o412.vercel.app/) · **Repo:** [View Source](https://github.com/indeedvaibhav/poertfolio)
+
+Built with **Next.js and TypeScript**, deployed on Vercel.
+
+> More projects coming soon — this section will grow as I push new repos.
 
 <br/>
 
@@ -228,10 +249,10 @@ currently:
 
 | Area | Focus |
 |---|---|
-| 📚 Learning | Advanced DSA · Full-Stack System Design |
+| 📚 Learning | Machine Learning fundamentals · Advanced SQL |
 | 🏗️ Building | React + Node.js web applications |
-| 💻 Practicing | Daily LeetCode problem solving in Java |
-| 🎯 Open To | Software Engineering opportunities · Collaborative projects |
+| 💻 Practicing | DSA in Java, daily |
+| 🎯 Open To | Internships · Collaborative & open-source projects |
 
 </div>
 
