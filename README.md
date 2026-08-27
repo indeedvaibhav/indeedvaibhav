@@ -39,7 +39,7 @@
 
 🚀 I build full-stack web apps with **React, Node.js, and Express**, and I've deployed real projects (not just tutorials)
 
-🤝 Collaborated on **RailSage AI**, a team hackathon project for FAR AWAY Hackathon 2026 — my focus was the [insert your specific part, e.g. frontend dashboard / map integration]
+🤝 Collaborated on **RailSage AI**, a team hackathon project for FAR AWAY Hackathon 2026, built with React, Vite, Node.js, Express, and Leaflet
 
 📚 Currently strengthening **SQL** and getting into the basics of **Machine Learning** alongside coursework
 
@@ -167,8 +167,6 @@ Built for the **FAR AWAY Hackathon 2026** as part of a team, using **React 19, V
 🔗 **Repo:** [View Source](https://github.com/indeedvaibhav/task-tracker)
 
 An independent full-stack project built with **JavaScript, React, and Node.js** to practice end-to-end CRUD workflows outside a hackathon setting.
-
-> *(Add 1–3 real technical highlights here — e.g. how you handled state, a specific bug you solved, or a feature you're proud of)*
 
 <br/>
 
