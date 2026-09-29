@@ -51,7 +51,7 @@
 
 🚀 From hackathon prototypes to backend systems, I like turning problem statements into **working software rather than just demos**
 
-💻 **277+ LeetCode problems solved** with Java as my primary problem-solving language
+💻 **350+ LeetCode problems solved** with Java as my primary problem-solving language
 
 📞 Open to **software engineering internships, hackathons, collaborative engineering, and open-source projects**
 
