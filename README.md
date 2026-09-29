@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:1a0000&height=220&section=header&text=VAIBHAV%20TRIPATHI&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=CSE%20Undergraduate%20%7C%20Java%20%26%20DSA%20%7C%20Backend%20%26%20Full-Stack%20Development&descAlignY=55&descSize=18"/>
 
 <a href="https://github.com/indeedvaibhav">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=CSE+Undergraduate+%7C+PSIT+Kanpur;Java+%2B+DSA+%7C+277%2B+LeetCode+Problems;Spring+Boot+%2B+PostgreSQL+%7C+Backend+Development;React+%2B+Next.js+%7C+Full-Stack+Development;AI%2FML+%7C+Building+Real-World+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=CSE+Undergraduate+%7C+PSIT+Kanpur;Java+%2B+DSA+%7C+350%2B+LeetCode+Problems;Spring+Boot+%2B+PostgreSQL+%7C+Backend+Development;React+%2B+Next.js+%7C+Full-Stack+Development;AI%2FML+%7C+Building+Real-World+Systems" alt="Typing SVG" />
 </a>
 
 <p align="center">
