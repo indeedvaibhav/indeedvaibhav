@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:1a0000&height=220&section=header&text=VAIBHAV%20TRIPATHI&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=CSE%20Undergraduate%20%7C%20Java%20%26%20DSA%20%7C%20PSIT%20Kanpur&descAlignY=55&descSize=18"/>
 
 <a href="https://github.com/indeedvaibhav">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=CSE+Undergraduate+%7C+PSIT+Kanpur;Java+%2B+DSA+%7C+277%2B+Problems+Solved;Full-Stack+with+React+%2B+Node.js;Built+RailSage+AI+with+the+squad" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=CSE+Undergraduate+%7C+PSIT+Kanpur;Java+%2B+DSA+%7C+LeetCode+Problem+Solving;Full-Stack+%7C+Spring+Boot+%2B+React+%2B+Next.js;Building+AI-Powered+%26+Real-World+Systems" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -20,8 +20,8 @@
 
 <br/>
 
-![](https://img.shields.io/badge/status-online%20%F0%9F%94%B4-B91C1C?style=for-the-badge)
-![](https://img.shields.io/badge/currently-shipping%20code-7F1D1D?style=for-the-badge)
+
+
 
 </div>
 
@@ -31,86 +31,116 @@
 
 <br/>
 
-## 🧠 About Me
+🧠 About Me
 
-🎓 3rd-year CSE undergrad at PSIT Kanpur
+🎓 3rd-year CSE undergraduate at PSIT Kanpur
 
-☕ My core strength is **Java** — I use it for DSA and problem solving, with 277+ problems solved on LeetCode
+☕ My core strength is Java — I use it for DSA and problem solving, with 277+ problems solved on LeetCode
 
-🚀 I build full-stack web apps with **React, Node.js, and Express**, and I've deployed real projects (not just tutorials)
+🚀 I build practical systems across Spring Boot, React, Next.js, Node.js, and Python/FastAPI, with databases and real APIs
 
-🤝 Collaborated on **RailSage AI**, a team hackathon project for FAR AWAY Hackathon 2026, built with React, Vite, Node.js, Express, and Leaflet
+🤝 Built and collaborated on projects spanning AI, civic-tech, healthcare, geospatial systems, and full-stack platforms
 
-📚 Currently strengthening **SQL** and getting into the basics of **Machine Learning** alongside coursework
+📚 Expanding into Machine Learning, AI systems, and backend architecture alongside DSA and full-stack development
 
-📞 Open to internships and collaborative/open-source projects
+📞 Open to internships, hackathons, collaborative engineering, and open-source projects
 
 <br/>
 
-```yaml
-identity: "CSE Undergraduate | Java & DSA | Full-Stack Development"
+identity: "CSE Undergraduate | Java & DSA | Backend & Full-Stack Development"
 currently:
-  learning: "Machine Learning fundamentals, advanced SQL"
-  building: "React + Node.js web applications"
-  practicing: "DSA in Java, daily"
-```
+  learning: "Machine Learning, AI systems, system design"
+  building: "Spring Boot + React/Next.js applications"
+  practicing: "DSA in Java + LeetCode"
 
 <br/>
 
-## ⚡ Self-Rated Proficiency
+⚡ Current Engineering Focus
 
 <div align="center">
 
-| Skill | Comfort Level |
-|---|---|
-| Java | ●●●●● |
-| DSA (Java) | ●●●●○ |
-| JavaScript | ●●●●○ |
-| React / Node.js | ●●●○○ |
-| SQL | ●●●○○ |
-| Python | ●●○○○ |
+Skill
+
+Comfort Level
+
+Java
+
+●●●●●
+
+DSA (Java)
+
+●●●●○
+
+JavaScript
+
+●●●●○
+
+React / Next.js
+
+●●●●○
+
+Spring Boot
+
+●●●○○
+
+Python / ML
+
+●●●○○
 
 </div>
 
 <br/>
 
-## 🎓 Education
+🎓 Education
 
 <div align="center">
 
-| | |
-|---|---|
-| **Degree** | B.Tech, Computer Science & Engineering |
-| **Institute** | PSIT Kanpur |
-| **Year** | 3rd Year |
-| **Location** | Kanpur, Uttar Pradesh, India |
+
+
+
+
+Degree
+
+B.Tech, Computer Science & Engineering
+
+Institute
+
+PSIT Kanpur
+
+Year
+
+3rd Year
+
+Location
+
+Kanpur, Uttar Pradesh, India
 
 </div>
 
 <br/>
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 <table align="center">
   <tr>
     <th>Languages</th>
-    <th>Web Dev</th>
-    <th>Tools</th>
+    <th>Frontend</th>
+    <th>Backend / Data</th>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=java" width="32"/><br/>Java</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=react" width="32"/><br/>React</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git" width="32"/><br/>Git</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=spring" width="32"/><br/>Spring Boot</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=js" width="32"/><br/>JavaScript</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="32"/><br/>Node.js</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=github" width="32"/><br/>GitHub</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postgres" width="32"/><br/>PostgreSQL</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=ts" width="32"/><br/>TypeScript</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=express" width="32"/><br/>Express</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=idea" width="32"/><br/>IntelliJ</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git,github" width="64"/><br/>Git / GitHub</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=python" width="32"/><br/>Python</td>
@@ -118,26 +148,39 @@ currently:
     <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="32"/><br/>VS Code</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="32"/><br/>SQL</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mysql,postgres" width="64"/><br/>MySQL / PostgreSQL</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=html" width="32"/><br/>HTML/CSS</td>
     <td align="center"></td>
   </tr>
 </table>
 
-<p align="center"><sub>Currently learning: Machine Learning fundamentals</sub></p>
+<p align="center"><sub>Also working with: REST APIs · FastAPI · AI/ML · Geospatial systems · PostgreSQL</sub></p>
 
 <br/>
 
-## 📌 Pinned Repositories
+📌 Pinned Repositories
 
 <div align="center">
 
-| Repository | Description |
-|---|---|
-| 🚂 **[railsage-ai](https://github.com/indeedvaibhav/railsage-ai)** | AI-assisted railway operations dashboard — team project, FAR AWAY Hackathon 2026 |
-| 💼 **[poertfolio](https://github.com/indeedvaibhav/poertfolio)** | Personal portfolio — Next.js + TypeScript, deployed on Vercel |
-| ✅ **[task-tracker](https://github.com/indeedvaibhav/task-tracker)** | Task management app — independent full-stack project |
-| 💻 **[LeetCode](https://github.com/indeedvaibhav/LeetCode)** | Auto-synced repo of my LeetCode submissions in Java |
+Repository
+
+Description
+
+🚂 railsage-ai
+
+AI-assisted railway operations dashboard — team project, FAR AWAY Hackathon 2026
+
+💼 poertfolio
+
+Personal portfolio — Next.js + TypeScript, deployed on Vercel
+
+🩸 BloodFlow
+
+Blood donation coordination platform — Spring Boot + PostgreSQL backend
+
+🌾 GramSetu
+
+AI-powered village infrastructure digital twin for Panchayat decision-making
 
 </div>
 
@@ -145,42 +188,59 @@ currently:
 
 <br/>
 
-## 🚀 Featured Projects
+🚀 Featured Projects
 
 <br/>
 
-### RailSage AI — Railway Operations Dashboard *(Team Project)*
+RailSage AI — Railway Operations Dashboard (Team Project)
 
-🔗 **Live:** [railsage-ai.vercel.app](https://railsage-ai.vercel.app) · **Repo:** [View Source](https://github.com/indeedvaibhav/railsage-ai)
+🔗 Live: railsage-ai.vercel.app · Repo: View Source
 
-Built for the **FAR AWAY Hackathon 2026** as part of a team, using **React 19, Vite, Node.js, Express, Leaflet, and GSAP**.
+Built for the FAR AWAY Hackathon 2026 as part of a team, using React 19, Vite, Node.js, Express, Leaflet, and GSAP.
 
-- Integrated the **Anthropic Claude API** to power a step-by-step reasoning feed, so operators could see why the system suggested an action instead of a black-box output
-- Implemented **live map-based tracking** with **Leaflet**, rendering train positions and route data in real time
-- Added **multilingual announcement support** across English, Hindi, and Japanese
-- Used **GSAP** for UI transitions across a data-dense operations dashboard
+Integrated the Anthropic Claude API to power a step-by-step reasoning feed, so operators could see why the system suggested an action instead of a black-box output
 
-<br/>
+Implemented live map-based tracking with Leaflet, rendering train positions and route data in real time
 
-### task-tracker — Task Management App
+Added multilingual announcement support across English, Hindi, and Japanese
 
-🔗 **Repo:** [View Source](https://github.com/indeedvaibhav/task-tracker)
-
-An independent full-stack project built with **JavaScript, React, and Node.js** to practice end-to-end CRUD workflows outside a hackathon setting.
+Used GSAP for UI transitions across a data-dense operations dashboard
 
 <br/>
 
-### poertfolio — Personal Portfolio
+BloodFlow — Blood Donation Coordination Platform
 
-🔗 **Live:** [vaibhav-portfolio-o412.vercel.app](https://vaibhav-portfolio-o412.vercel.app/) · **Repo:** [View Source](https://github.com/indeedvaibhav/poertfolio)
+🔗 Backend: Spring Boot · Database: PostgreSQL
 
-Built with **Next.js and TypeScript**, deployed on Vercel.
-
-> More projects coming soon — this section will grow as I push new repos.
+A backend-focused platform designed around donor, hospital, blood-request, and response workflows, with a normalized relational data model and REST-oriented service architecture.
 
 <br/>
 
-## 💻 LeetCode Progress
+GramSetu — Village Infrastructure Digital Twin
+
+An AI-powered civic-tech concept for Panchayat officers to understand village infrastructure gaps and make better development investment decisions using structured data, analytics, and geospatial context.
+
+<br/>
+
+task-tracker — Task Management App
+
+🔗 Repo: View Source
+
+An independent full-stack project built with JavaScript, React, and Node.js to practice end-to-end CRUD workflows outside a hackathon setting.
+
+<br/>
+
+poertfolio — Personal Portfolio
+
+🔗 Live: vaibhav-portfolio-o412.vercel.app · Repo: View Source
+
+Built with Next.js and TypeScript, deployed on Vercel.
+
+More projects coming soon — this section will grow as I push new repos.
+
+<br/>
+
+💻 LeetCode Progress
 
 <div align="center">
 
@@ -202,7 +262,7 @@ Built with **Next.js and TypeScript**, deployed on Vercel.
 
 <br/>
 
-## 📊 GitHub Stats & Top Languages
+📊 GitHub Stats & Top Languages
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=indeedvaibhav&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=DC2626&icon_color=B91C1C&text_color=C9D1D9"/>
@@ -215,7 +275,7 @@ Built with **Next.js and TypeScript**, deployed on Vercel.
 
 <br/>
 
-## 🏆 GitHub Trophies
+🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=indeedvaibhav&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8"/>
@@ -223,7 +283,7 @@ Built with **Next.js and TypeScript**, deployed on Vercel.
 
 <br/>
 
-## 📈 Contribution Activity
+📈 Contribution Activity
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=indeedvaibhav&theme=redical&hide_border=true&bg_color=0D1117&color=DC2626&line=B91C1C&point=C9D1D9"/>
@@ -231,48 +291,64 @@ Built with **Next.js and TypeScript**, deployed on Vercel.
 
 <br/>
 
-## 🐍 Contribution Snake
+🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/indeedvaibhav/indeedvaibhav/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
-> ⚙️ This animated snake needs a one-time GitHub Action setup in this repo — instructions below.
+⚙️ This animated snake needs a one-time GitHub Action setup in this repo — instructions below.
 
 <br/>
 
-## 🎯 What I'm Focused On
+🎯 What I'm Focused On
 
 <div align="center">
 
-| Area | Focus |
-|---|---|
-| 📚 Learning | Machine Learning fundamentals · Advanced SQL |
-| 🏗️ Building | React + Node.js web applications |
-| 💻 Practicing | DSA in Java, daily |
-| 🎯 Open To | Internships · Collaborative & open-source projects |
+Area
+
+Focus
+
+📚 Learning
+
+Machine Learning · AI systems · Backend architecture
+
+🏗️ Building
+
+Spring Boot + React/Next.js systems
+
+💻 Practicing
+
+DSA in Java · LeetCode · problem solving
+
+🎯 Open To
+
+Internships · Collaborative & open-source projects
 
 </div>
 
 <br/>
 
-## 🐍 Enabling the Snake Animation
+🐍 Enabling the Snake Animation
 
 <details>
 <summary><b>Click to expand setup steps (one-time, ~2 minutes)</b></summary>
 
 <br/>
 
-1. In this repo, go to **Actions → New workflow → set up a workflow yourself**.
-2. Name the file `snake.yml` and paste in the [Platane/snk](https://github.com/Platane/snk) action config (dark theme, output branch `output`).
-3. Commit — the action will run automatically on a schedule and generate the snake SVG.
-4. The image link above will start rendering once the action's first run completes.
+In this repo, go to Actions → New workflow → set up a workflow yourself.
+
+Name the file snake.yml and paste in the Platane/snk action config (dark theme, output branch output).
+
+Commit — the action will run automatically on a schedule and generate the snake SVG.
+
+The image link above will start rendering once the action's first run completes.
 
 </details>
 
 <br/>
 
-## 📧 Connect With Me
+📧 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vaibhav-tripathi-919939339" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
@@ -285,9 +361,9 @@ Built with **Next.js and TypeScript**, deployed on Vercel.
 
 <div align="center">
 
-### 🔴 "Code is compiled discipline."
+🔴 "Code is compiled discipline."
 
-![](https://img.shields.io/badge/Thanks%20for%20stopping%20by-B91C1C?style=for-the-badge)
+
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,25:450A0A,50:7f1d1d,75:B91C1C,100:0a0000&height=150&section=footer"/>
 
