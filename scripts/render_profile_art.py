@@ -41,15 +41,17 @@ def heatmap() -> str:
             columns.append([])
         columns[column].append((day, item["count"]))
 
-    width, height, cell, gap = 850, 240, 11, 4
-    left, top = 34, 66
+    # A roomy, GitHub-style 52-week calendar. The previous 11px cells were
+    # hard to read once GitHub scaled the image to README width.
+    width, height, cell, gap = 1050, 278, 13, 4
+    left, top = 58, 78
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">',
         '<rect width="100%" height="100%" rx="12" fill="#0d1117"/>',
-        '<rect x="0.5" y="0.5" width="849" height="239" rx="12" fill="none" stroke="#30363d"/>',
-        '<line x1="0" y1="38" x2="850" y2="38" stroke="#30363d"/>',
-        '<circle cx="18" cy="19" r="4" fill="#ff5f56"/><circle cx="32" cy="19" r="4" fill="#ffbd2e"/><circle cx="46" cy="19" r="4" fill="#27c93f"/>',
-        '<text x="425" y="23" fill="#8b949e" font-size="12" text-anchor="middle">indeedvaibhav@github: ~/contributions</text>',
+        '<rect x="0.5" y="0.5" width="1049" height="277" rx="12" fill="none" stroke="#30363d"/>',
+        '<line x1="0" y1="48" x2="1050" y2="48" stroke="#30363d"/>',
+        '<text x="28" y="30" fill="#e6edf3" font-size="14" font-weight="700">CONTRIBUTIONS <tspan fill="#8b949e" font-weight="400">// LAST 12 MONTHS</tspan></text>',
+        '<text x="1022" y="30" fill="#8b949e" font-size="10" text-anchor="end">WEEK BY WEEK · UTC</text>',
     ]
     seen = set()
     for ci, column in enumerate(columns):
@@ -58,26 +60,27 @@ def heatmap() -> str:
             y = top + ((day.weekday() + 1) % 7) * (cell + gap)
             if day.day <= 7 and day.strftime("%Y-%m") not in seen:
                 seen.add(day.strftime("%Y-%m"))
-                parts.append(f'<text x="{x}" y="56" fill="{MUTED}" font-size="10">{esc(day.strftime("%b"))}</text>')
+                parts.append(f'<text x="{x}" y="68" fill="{MUTED}" font-size="11">{esc(day.strftime("%b"))}</text>')
             parts.append(
                 f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{PALETTE[level(count)]}">'
                 f'<title>{esc(day.isoformat())}: {count} contribution{"s" if count != 1 else ""}</title></rect>'
             )
     for row, label in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
-        y = top + row * (cell + gap) + 9
-        parts.append(f'<text x="4" y="{y}" fill="{MUTED}" font-size="9">{label}</text>')
+        y = top + row * (cell + gap) + 10
+        parts.append(f'<text x="18" y="{y}" fill="{MUTED}" font-size="10">{label}</text>')
     parts.extend([
-        f'<text x="34" y="207" fill="{MUTED}" font-size="10">{DATA["total_contributions"]:,} contributions in the last year</text>',
-        '<text x="565" y="207" fill="#8b949e" font-size="10">Less</text>',
+        f'<text x="58" y="221" fill="{TEXT}" font-size="12" font-weight="700">{DATA["total_contributions"]:,}</text>',
+        '<text x="92" y="221" fill="#8b949e" font-size="11">contributions in the last year</text>',
+        '<text x="745" y="221" fill="#8b949e" font-size="10">Less</text>',
     ])
-    lx = 594
+    lx = 778
     for color in PALETTE:
-        parts.append(f'<rect x="{lx}" y="198" width="11" height="11" rx="2" fill="{color}"/>')
-        lx += 15
+        parts.append(f'<rect x="{lx}" y="211" width="12" height="12" rx="3" fill="{color}"/>')
+        lx += 18
     parts.extend([
-        f'<text x="{lx + 2}" y="207" fill="#8b949e" font-size="10">More</text>',
-        f'<text x="34" y="225" fill="{CYAN}" font-size="10">Current streak: {DATA["current_streak"]} days</text>',
-        f'<text x="245" y="225" fill="{MUTED}" font-size="10">Longest: {DATA["longest_streak"]} days</text>',
+        f'<text x="{lx + 4}" y="221" fill="#8b949e" font-size="10">More</text>',
+        f'<text x="58" y="256" fill="{CYAN}" font-size="11">CURRENT STREAK  ·  {DATA["current_streak"]} days</text>',
+        f'<text x="300" y="256" fill="{MUTED}" font-size="11">LONGEST STREAK  ·  {DATA["longest_streak"]} days</text>',
         '</svg>',
     ])
     return "".join(parts)

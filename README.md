@@ -44,12 +44,6 @@ I like taking a real problem from **first sketch → working system**: model the
 
 ## 02 // Systems in the Field
 
-<img width="100%" src="./assets/profile/systems-map.svg" alt="Four original project schematics for RailSage AI, CivicSentinel, GramSetu, and BloodFlow"/>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### RailSage AI · Railway Operations
 
 Team project for **FAR AWAY Hackathon 2026**. An operator-facing dashboard with live map tracking, multilingual announcements, and a step-by-step Claude reasoning feed.
@@ -58,8 +52,7 @@ Team project for **FAR AWAY Hackathon 2026**. An operator-facing dashboard with 
 
 [Live demo](https://railsage-ai.vercel.app) · [Source](https://github.com/indeedvaibhav/railsage-ai)
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### CivicSentinel · Civic Intelligence
 
@@ -67,10 +60,7 @@ Citizen and admin workflows for civic complaints, AI-assisted classification, lo
 
 **Civic tech · AI/LLM · RAG concepts · Geospatial data**
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
 ### GramSetu · Village Infrastructure
 
@@ -78,18 +68,13 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 **Decision support · Data visualization · Maps**
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### BloodFlow · Healthcare Backend
 
 A donor and hospital coordination backend for blood requests and donor responses, built around a relational domain model.
 
 **Spring Boot · PostgreSQL · JPA/Hibernate**
-
-</td>
-</tr>
-</table>
 
 <details>
 <summary><b>More builds</b> · ParkSense · eSwasthya · VarshaDrishti · Portfolio</summary>
@@ -103,41 +88,29 @@ A donor and hospital coordination backend for blood requests and donor responses
 
 ## 03 // Toolchain
 
-<table>
-<tr>
-<th>01 · Languages</th>
-<th>02 · Product UI</th>
-<th>03 · Services + Data</th>
-<th>04 · Applied Systems</th>
-</tr>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=java,python,js,ts" alt="Java, Python, JavaScript, and TypeScript"/><br/>
+### 01 · Languages
+
+<p><img src="https://skillicons.dev/icons?i=java,python,js,ts" alt="Java, Python, JavaScript, and TypeScript"/></p>
 Java · Python · JavaScript · TypeScript
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind" alt="React, Next.js, Vite, and Tailwind CSS"/><br/>
+
+### 02 · Product UI
+
+<p><img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind" alt="React, Next.js, Vite, and Tailwind CSS"/></p>
 React · Next.js · Vite · Tailwind
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres" alt="Spring Boot, Node.js, Express, and PostgreSQL"/><br/>
+
+### 03 · Services + Data
+
+<p><img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres" alt="Spring Boot, Node.js, Express, and PostgreSQL"/></p>
 Spring Boot · Node · Express · PostgreSQL · MySQL
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,leaflet,git,github" alt="FastAPI, Leaflet, Git, and GitHub"/><br/>
+
+### 04 · Applied Systems
+
+<p><img src="https://skillicons.dev/icons?i=fastapi,leaflet,git,github" alt="FastAPI, Leaflet, Git, and GitHub"/></p>
 FastAPI · REST APIs · Maps · Git · AI/ML · RAG
-</td>
-</tr>
-</table>
 
 ## 04 // Telemetry
 
-<table>
-<tr>
-<td width="50%" align="center"><img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/></td>
-<td width="50%" align="center"><img width="100%" src="./stats.svg" alt="GitHub contribution totals and streak statistics"/></td>
-</tr>
-</table>
+<img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
 <img width="100%" src="./contrib-heatmap.svg" alt="Daily GitHub contribution heatmap"/>
 
