@@ -1,0 +1,24 @@
+{
+  "username": "Indeedvaibhav",
+  "fetched_at": "2026-11-06T16:31:02Z",
+  "solved": {
+    "all": 402,
+    "easy": 256,
+    "medium": 126,
+    "hard": 20
+  },
+  "badges": [
+    {
+      "id": "10689497",
+      "name": "100 Days Badge 2026",
+      "earned_at": "2026-08-22",
+      "icon_file": "10689497.png"
+    },
+    {
+      "id": "10430715",
+      "name": "50 Days Badge 2026",
+      "earned_at": "2026-06-21",
+      "icon_file": "10430715.png"
+    }
+  ]
+}

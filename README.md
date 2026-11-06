@@ -12,6 +12,12 @@
 
 <br/><br/>
 
+<h3><code>vaibhav@github:~$ ./leetcode.sh</code></h3>
+
+<a href="https://leetcode.com/u/Indeedvaibhav/"><img src="./leetcode.svg" width="850" alt="LeetCode problems solved and earned badges, refreshed daily" /></a>
+
+<br/><br/>
+
 <h3><code>vaibhav@github:~$ ./links.sh</code></h3>
 
 <p align="center">
