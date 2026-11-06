@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Vaibhav Tripathi — engineering profile</title>
+  <desc id="desc">A redline-inspired control panel for a computer science student building Java, backend, full-stack, and applied AI systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090B10"/><stop offset="1" stop-color="#11131A"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F04452"/><stop offset="1" stop-color="#FF8B5E"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#222733" stroke-width="1"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H4" stroke="#F6F7F9" stroke-opacity=".035"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="1200" height="330" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <rect width="1200" height="330" fill="url(#grid)" opacity=".85"/>
+    <path d="M0 286H540L608 218H742" fill="none" stroke="#F04452" stroke-width="2" opacity=".52"/>
+    <path d="M0 300H520L610 210H758" fill="none" stroke="#FFB454" stroke-width="1" opacity=".28"/>
+    <path d="M870 0V64L920 114H1200" fill="none" stroke="#58A6FF" stroke-width="1" opacity=".42"/>
+    <path d="M0 36H170L204 70H374" fill="none" stroke="#F04452" stroke-width="1" opacity=".32"/>
+    <rect width="1200" height="330" fill="url(#scan)"/>
+    <rect x="-120" y="55" width="14" height="255" fill="#F04452" opacity=".16">
+      <animate attributeName="x" from="-120" to="1220" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="54" y="42" fill="#8B949E" font-family="Consolas,monospace" font-size="12" letter-spacing="2">INDEEDVAIBHAV // FIELD CONSOLE</text>
+    <circle cx="399" cy="37" r="5" fill="#F04452" filter="url(#glow)"><animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="54" y="128" fill="#E6EDF3" font-family="Arial,sans-serif" font-weight="800" font-size="64" letter-spacing="1">VAIBHAV</text>
+    <text x="54" y="190" fill="url(#red)" font-family="Arial,sans-serif" font-weight="800" font-size="58" letter-spacing="1">TRIPATHI</text>
+    <text x="58" y="226" fill="#E6EDF3" font-family="Consolas,monospace" font-size="15" letter-spacing="1">JAVA / BACKEND / FULL-STACK / APPLIED AI</text>
+    <text x="58" y="259" fill="#8B949E" font-family="Consolas,monospace" font-size="12">CSE UNDERGRAD · PSIT KANPUR · BUILD → SHIP → REFINE</text>
+    <path d="M58 278H444" stroke="#30363D"/>
+    <text x="58" y="303" fill="#FFB454" font-family="Consolas,monospace" font-size="11" letter-spacing="1">OPEN TO INTERNSHIPS · HACKATHONS · OPEN SOURCE</text>
+    <rect x="776" y="28" width="380" height="274" rx="12" fill="#0B0E14" stroke="#30363D"/>
+    <path d="M776 70H1156" stroke="#30363D"/>
+    <circle cx="797" cy="49" r="4" fill="#F04452"/><circle cx="812" cy="49" r="4" fill="#FFB454"/><circle cx="827" cy="49" r="4" fill="#3FB950"/>
+    <text x="965" y="53" fill="#8B949E" font-family="Consolas,monospace" font-size="11" text-anchor="middle">STATUS / SYSTEMS</text>
+    <text x="800" y="100" fill="#8B949E" font-family="Consolas,monospace" font-size="11">CORE LANGUAGE</text>
+    <text x="800" y="128" fill="#E6EDF3" font-family="Consolas,monospace" font-size="21" font-weight="700">JAVA</text>
+    <text x="1000" y="100" fill="#8B949E" font-family="Consolas,monospace" font-size="11">BUILD MODE</text>
+    <text x="1000" y="128" fill="#F04452" font-family="Consolas,monospace" font-size="19" font-weight="700">ACTIVE</text>
+    <path d="M800 148H1132" stroke="#30363D"/>
+    <text x="800" y="174" fill="#8B949E" font-family="Consolas,monospace" font-size="10">STACK TRACE</text>
+    <path d="M810 202H1116" stroke="#30363D" stroke-width="3"/>
+    <path d="M810 202H1054" stroke="url(#red)" stroke-width="3"/>
+    <circle cx="810" cy="202" r="6" fill="#F04452"/><circle cx="914" cy="202" r="6" fill="#FFB454"/><circle cx="1017" cy="202" r="6" fill="#58A6FF"/><circle cx="1116" cy="202" r="6" fill="#3FB950"/>
+    <text x="810" y="226" fill="#E6EDF3" font-family="Consolas,monospace" font-size="9">DSA</text>
+    <text x="914" y="226" fill="#E6EDF3" font-family="Consolas,monospace" font-size="9" text-anchor="middle">API</text>
+    <text x="1017" y="226" fill="#E6EDF3" font-family="Consolas,monospace" font-size="9" text-anchor="middle">UI</text>
+    <text x="1116" y="226" fill="#E6EDF3" font-family="Consolas,monospace" font-size="9" text-anchor="end">AI</text>
+    <path d="M800 246H1132" stroke="#30363D"/>
+    <text x="800" y="272" fill="#8B949E" font-family="Consolas,monospace" font-size="10">COORDINATES</text>
+    <text x="1132" y="272" fill="#FFB454" font-family="Consolas,monospace" font-size="12" text-anchor="end">KANPUR / IN</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="329" rx="18" fill="none" stroke="#3A2028"/>
+</svg>

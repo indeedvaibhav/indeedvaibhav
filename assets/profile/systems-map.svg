@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Systems map — selected projects</title>
+  <desc id="desc">Four original schematic panels representing railway operations, civic intelligence, village infrastructure, and healthcare coordination projects. These are illustrations, not application screenshots.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11151D"/><stop offset="1" stop-color="#0A0C11"/></linearGradient>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#242A34" stroke-width=".7"/></pattern>
+  </defs>
+  <rect width="1200" height="470" rx="18" fill="#090B10"/>
+  <rect width="1200" height="470" rx="18" fill="url(#grid)" opacity=".4"/>
+  <!-- RailSage -->
+  <g transform="translate(20 20)">
+    <rect width="570" height="205" rx="14" fill="url(#panel)" stroke="#4B242E"/>
+    <text x="22" y="29" fill="#F04452" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5">01 / ROUTE INTELLIGENCE</text>
+    <text x="22" y="61" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="23" font-weight="700">RAILSAGE AI</text>
+    <text x="22" y="83" fill="#8B949E" font-family="Consolas,monospace" font-size="10">RAILWAY OPERATIONS · MAPS · AI ASSIST</text>
+    <path d="M32 145H145L183 112H257L300 160H398L445 121H532" fill="none" stroke="#F04452" stroke-width="3"/>
+    <path d="M32 154H145L183 121H257L300 169H398L445 130H532" fill="none" stroke="#F04452" stroke-opacity=".28" stroke-width="2"/>
+    <g fill="#0B0E14" stroke="#FFB454" stroke-width="3"><circle cx="32" cy="145" r="7"/><circle cx="183" cy="112" r="7"/><circle cx="300" cy="160" r="7"/><circle cx="445" cy="121" r="7"/><circle cx="532" cy="121" r="7"/></g>
+    <circle cx="32" cy="145" r="3" fill="#F04452"><animate attributeName="cx" values="32;183;300;445;532" dur="5s" repeatCount="indefinite"/></circle>
+    <text x="32" y="183" fill="#8B949E" font-family="Consolas,monospace" font-size="9">NODE A</text><text x="532" y="183" fill="#8B949E" font-family="Consolas,monospace" font-size="9" text-anchor="end">NODE E</text>
+  </g>
+  <!-- CivicSentinel -->
+  <g transform="translate(610 20)">
+    <rect width="570" height="205" rx="14" fill="url(#panel)" stroke="#44391F"/>
+    <text x="22" y="29" fill="#FFB454" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5">02 / CIVIC SIGNAL</text>
+    <text x="22" y="61" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="23" font-weight="700">CIVICSENTINEL</text>
+    <text x="22" y="83" fill="#8B949E" font-family="Consolas,monospace" font-size="10">CITIZEN WORKFLOWS · LOCATION · RETRIEVAL</text>
+    <g fill="#171C25" stroke="#3A414C">
+      <rect x="356" y="28" width="49" height="49" rx="4"/><rect x="414" y="28" width="49" height="49" rx="4"/><rect x="472" y="28" width="49" height="49" rx="4"/>
+      <rect x="356" y="86" width="49" height="49" rx="4"/><rect x="414" y="86" width="49" height="49" rx="4"/><rect x="472" y="86" width="49" height="49" rx="4"/>
+      <rect x="356" y="144" width="49" height="34" rx="4"/><rect x="414" y="144" width="49" height="34" rx="4"/><rect x="472" y="144" width="49" height="34" rx="4"/>
+    </g>
+    <circle cx="438" cy="110" r="12" fill="#FFB454" opacity=".9"><animate attributeName="r" values="9;15;9" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="438" cy="110" r="29" fill="none" stroke="#FFB454" stroke-opacity=".65"/><circle cx="438" cy="110" r="45" fill="none" stroke="#FFB454" stroke-opacity=".24"/>
+    <path d="M438 65V155M393 110H483" stroke="#FFB454" stroke-opacity=".26"/>
+  </g>
+  <!-- GramSetu -->
+  <g transform="translate(20 245)">
+    <rect width="570" height="205" rx="14" fill="url(#panel)" stroke="#284333"/>
+    <text x="22" y="29" fill="#3FB950" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5">03 / TERRAIN MODEL</text>
+    <text x="22" y="61" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="23" font-weight="700">GRAMSETU</text>
+    <text x="22" y="83" fill="#8B949E" font-family="Consolas,monospace" font-size="10">VILLAGE DATA · DIGITAL TWIN · PLANNING</text>
+    <path d="M326 48C370 23 405 36 433 54S491 56 540 34M319 74C359 50 401 58 432 78S494 81 543 59M315 102C357 83 399 86 431 103S494 108 545 88M314 130C355 117 400 117 431 132S492 140 545 118M319 159C361 147 398 147 431 160S489 171 539 147" fill="none" stroke="#3FB950" stroke-opacity=".65" stroke-width="1.5"/>
+    <g fill="#FFB454" stroke="#0A0C11" stroke-width="3"><circle cx="373" cy="74" r="6"/><circle cx="431" cy="103" r="7"/><circle cx="493" cy="81" r="5"/><circle cx="486" cy="140" r="6"/></g>
+    <path d="M373 74L431 103L493 81M431 103L486 140" stroke="#FFB454" stroke-opacity=".4" stroke-dasharray="4 4"/>
+  </g>
+  <!-- BloodFlow -->
+  <g transform="translate(610 245)">
+    <rect width="570" height="205" rx="14" fill="url(#panel)" stroke="#4B242E"/>
+    <text x="22" y="29" fill="#F04452" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5">04 / CARE COORDINATION</text>
+    <text x="22" y="61" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="23" font-weight="700">BLOODFLOW</text>
+    <text x="22" y="83" fill="#8B949E" font-family="Consolas,monospace" font-size="10">DONORS · HOSPITALS · REQUESTS</text>
+    <path d="M326 105H380L401 76L428 143L454 96L473 105H542" fill="none" stroke="#F04452" stroke-width="3"/>
+    <path d="M326 105H542" fill="none" stroke="#F04452" stroke-opacity=".2" stroke-width="1"/>
+    <g fill="#0B0E14" stroke="#FFB454" stroke-width="2"><circle cx="326" cy="105" r="8"/><circle cx="380" cy="105" r="8"/><circle cx="473" cy="105" r="8"/><circle cx="542" cy="105" r="8"/></g>
+    <circle cx="326" cy="105" r="3" fill="#FFB454"><animate attributeName="cx" values="326;380;428;473;542" dur="3.5s" repeatCount="indefinite"/></circle>
+    <text x="326" y="142" fill="#8B949E" font-family="Consolas,monospace" font-size="9">DONOR</text><text x="542" y="142" fill="#8B949E" font-family="Consolas,monospace" font-size="9" text-anchor="end">REQUEST</text>
+  </g>
+</svg>
