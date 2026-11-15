@@ -95,33 +95,75 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 ## 04 // Toolchain
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100" alt="Animated developer stack logo"/>
-<br/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/aws.gif" width="100" alt="Animated AWS logo"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="100" alt="Animated developer stack logo"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b757-4c70-8f42-43d5dddd2c36" width="100" alt="Animated developer stack logo"/>
-<br/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="100" alt="Animated developer stack logo"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797f46-efe4-41e6-9e75-5303e1bbcbfa" width="100" alt="Animated developer stack logo"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="100" alt="Animated developer stack logo"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="100" alt="Animated developer stack logo"/>
-</div>
+<table>
+<tr><th>Languages</th><th>Frontend</th><th>Backend</th><th>Data</th><th>AI / ML</th><th>Infrastructure</th></tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="40" alt="Java"/><br/>Java</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="40" alt="React"/><br/>React</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=spring&theme=dark" width="40" alt="Spring Boot"/><br/>Spring Boot</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="40" alt="PostgreSQL"/><br/>PostgreSQL</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="40" alt="Python"/><br/>AI / ML</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="40" alt="Git"/><br/>Git</td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="40" alt="Python"/><br/>Python</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40" alt="Next.js"/><br/>Next.js</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40" alt="Node.js"/><br/>Node.js</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="40" alt="MySQL"/><br/>MySQL</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=openai&theme=dark" width="40" alt="LLM APIs"/><br/>LLM APIs</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="40" alt="GitHub"/><br/>GitHub</td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="40" alt="JavaScript"/><br/>JavaScript</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="40" alt="Vite"/><br/>Vite</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="40" alt="Express"/><br/>Express</td>
+<td align="center">▱<br/>JPA / Hibernate</td>
+<td align="center">⌘<br/>RAG</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="40" alt="AWS"/><br/>AWS</td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="40" alt="TypeScript"/><br/>TypeScript</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="40" alt="Tailwind CSS"/><br/>Tailwind CSS</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="40" alt="FastAPI"/><br/>FastAPI</td>
+<td align="center">↔<br/>REST APIs</td>
+<td align="center">◎<br/>Geospatial AI</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="40" alt="Vercel"/><br/>Vercel</td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=html,css&theme=dark" width="40" alt="HTML and CSS"/><br/>HTML / CSS</td>
+<td align="center">◌<br/>GSAP</td>
+<td align="center">⇄<br/>REST APIs</td>
+<td align="center">⌖<br/>Geospatial data</td>
+<td align="center">✳<br/>Prompt engineering</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=postman&theme=dark" width="40" alt="Postman"/><br/>Postman</td>
+</tr>
+</table>
 
-<div align="center">
-<b>Languages + core:</b> Java · DSA · Python · JavaScript · TypeScript<br/>
-<b>Product + backend:</b> React · Next.js · Spring Boot · Node.js · Express · FastAPI<br/>
-<b>Data + applied:</b> PostgreSQL · MySQL · REST APIs · AI/ML · LLM APIs · RAG · Geospatial systems
-</div>
+*Core problem-solving: Data Structures & Algorithms (DSA) · backend engineering · data modeling.*
 
-## 05 // Telemetry
+## 05 // Hackathons
+
+**12 hackathons led** — from national finals to international semi-finals. Selected events:
+
+| Event | Role / result | Venue / track |
+|:---|:---|:---|
+| **India Innovates 2026** | Team lead · Finalist | Bharat Mandapam, New Delhi |
+| **FAR AWAY 2026 (Zuup)** | Team lead · Semi-finalist | Delhi → Japan finale |
+| **Smart India Hackathon 2026** | Team member | ISRO problem track |
+| **National AI/ML Hackathon (AVEVA)** | Team lead | IIT Hyderabad · YUVAAN 2026 |
+| **Hack It Out — Technex ’26** | Team lead | IIT BHU, Varanasi |
+| **Hack for Green Bharat** | Team lead | Microsoft Office, Gurugram |
+| **iQOO Hackathon 2026** | Team lead | Bengaluru · Pune · Chennai · Hyderabad |
+
+## 06 // Education
+
+| Programme | Institution | Result | Period |
+|:---|:---|:---:|:---:|
+| **B.Tech, Computer Science & Engineering** | Pranveer Singh Institute of Technology, Kanpur | **CGPA 7** · 3rd year | 2024–2028 |
+| **ISC — Class XII (PCM)** | St. Thomas School, Kanpur | 83.4% · Sports Captain | 2023–2024 |
+| **ICSE — Class X** | St. Thomas School, Kanpur | 91.2% · House Captain | 2021–2022 |
+
+## 07 // Telemetry
 
 <img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
@@ -131,7 +173,7 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 <a href="https://leetcode.com/u/Indeedvaibhav/">Open LeetCode profile ↗</a>
 </div>
 
-## 06 // Base + Current Direction
+## 08 // Base + Current Direction
 
 | Base | Current focus |
 |:---|:---|
@@ -139,7 +181,7 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 | **3rd year** · Kanpur, Uttar Pradesh, India | Spring Boot + PostgreSQL · React / Next.js |
 | **Open to** internships, hackathons, and open-source collaboration | AI/LLM applications · RAG · geospatial systems |
 
-## 07 // Make Contact
+## 09 // Make Contact
 
 **Have a useful problem to solve or a team to build with?**
 
