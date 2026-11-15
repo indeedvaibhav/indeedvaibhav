@@ -89,37 +89,11 @@ def focus_areas_card() -> str:
     return ''.join(parts)
 
 
-def toolchain_card() -> str:
-    width, height = 1080, 374
-    modules = [
-        (24, 70, 326, "01", "LANGUAGES", "Java · Python", "JavaScript · TypeScript", "DSA / problem solving"),
-        (377, 70, 326, "02", "PRODUCT UI", "React · Next.js", "Vite · Tailwind CSS", "Interfaces / web apps"),
-        (730, 70, 326, "03", "SERVICES", "Spring Boot · Node.js", "Express · FastAPI", "REST APIs / backend"),
-        (24, 218, 510, "04", "DATA + PERSISTENCE", "PostgreSQL · MySQL · SQL", "JPA / Hibernate", "Relational modeling"),
-        (546, 218, 510, "05", "APPLIED INTELLIGENCE", "Machine learning · LLM APIs", "RAG concepts · maps · Leaflet", "Geospatial / data-led tools"),
-    ]
-    parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
-        '<title id="title">Engineering Toolchain</title><desc id="desc">A connected map of Vaibhav Tripathi’s languages, product UI, backend services, data systems, and applied intelligence technologies.</desc>',
-        f'<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17131a"/><stop offset="1" stop-color="{BG}"/></linearGradient><linearGradient id="wire"><stop stop-color="{RED}" stop-opacity=".8"/><stop offset="1" stop-color="#58a6ff" stop-opacity=".55"/></linearGradient></defs>',
-        f'<style>text{{font-family:{MONO}}}.mod{{opacity:0;animation:up .55s ease-out forwards}}.trace{{stroke-dasharray:7 8;animation:flow 8s linear infinite}}@keyframes up{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:translateY(0)}}}}@keyframes flow{{to{{stroke-dashoffset:-120}}}}@media(prefers-reduced-motion:reduce){{.mod{{animation:none;opacity:1;transform:none}}.trace{{animation:none}}}}</style>',
-        f'<rect x=".5" y=".5" width="1079" height="373" rx="14" fill="url(#bg)" stroke="{EDGE}"/><path d="M18 1h210" stroke="{RED}" stroke-width="2"/>',
-        f'<text x="26" y="35" fill="{RED}" font-size="11" letter-spacing="2.5">TOOLCHAIN / SYSTEM MAP</text><text x="1054" y="35" fill="{DIM}" font-size="10" text-anchor="end">CODE → PRODUCT → DECISIONS</text>',
-        f'<path class="trace" d="M350 133h27m326 0h27M187 194v11q0 14 14 14h78M893 194v11q0 14-14 14h-78M534 280h12" fill="none" stroke="url(#wire)" stroke-width="1.5"/>',
-    ]
-    for index, (x, y, w, number, label, line1, line2, caption) in enumerate(modules):
-        delay = .08 + index * .08
-        parts.append(f'<g class="mod" style="animation-delay:{delay:.2f}s"><rect x="{x}" y="{y}" width="{w}" height="124" rx="10" fill="{PANEL}" stroke="{EDGE}"/><text x="{x+17}" y="{y+25}" fill="{RED}" font-size="10" letter-spacing="1.2">{number} / {esc(label)}</text><text x="{x+17}" y="{y+56}" fill="{TEXT}" font-size="14" font-weight="650">{esc(line1)}</text><text x="{x+17}" y="{y+79}" fill="{TEXT}" font-size="14" font-weight="650">{esc(line2)}</text><text x="{x+17}" y="{y+105}" fill="{MUTED}" font-size="10">{esc(caption)}</text><circle cx="{x+w-17}" cy="{y+23}" r="3" fill="{RED}"/></g>')
-    parts.append(f'<text x="26" y="362" fill="{DIM}" font-size="9" letter-spacing="1.4">FOUNDATIONS IN JAVA + DSA · BUILT THROUGH BACKEND, WEB, DATA, AND APPLIED AI</text><text x="1054" y="362" fill="{DIM}" font-size="9" text-anchor="end">CURRENT STACK / CURATED</text></svg>')
-    return ''.join(parts)
-
-
 def main() -> None:
     OUT.mkdir(exist_ok=True)
     cards = {
         "focus-areas.svg": focus_areas_card(),
         "activity.svg": activity_card(),
-        "toolchain.svg": toolchain_card(),
     }
     for filename, svg in cards.items():
         (OUT / filename).write_text(svg + "\n", encoding="utf-8")
