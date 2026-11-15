@@ -28,9 +28,10 @@ jobs:
       - run: python scripts/fetch_contributions.py
       - run: python scripts/fetch_leetcode.py
       - run: python scripts/render_profile_art.py
+      - run: python scripts/render_readme_cards.py
       - run: python scripts/render_leetcode_svg.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile contribution art [skip ci]"
-          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg leetcode.svg assets/leetcode-badges/*"
+          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg leetcode.svg assets/leetcode-badges/* cards/*.svg"
 

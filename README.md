@@ -42,7 +42,23 @@ I like taking a real problem from **first sketch → working system**: model the
 </tr>
 </table>
 
-## 02 // Systems in the Field
+## 02 // Animated Readouts
+
+<div align="center">
+<img width="32%" src="./cards/build.svg" alt="BUILD: Java, DSA, Spring Boot, backend engineering, and React or Next.js"/>
+<img width="32%" src="./cards/systems.svg" alt="SYSTEMS: backend services, data modeling, APIs, and geospatial dashboards"/>
+<img width="32%" src="./cards/intelligence.svg" alt="INTELLIGENCE: machine learning, LLM applications, retrieval, and civic workflows"/>
+</div>
+
+<img width="100%" src="./cards/activity.svg" alt="GitHub contribution activity for the last 12 months, generated from repository contribution data"/>
+
+<div align="center">
+<a href="https://railsage-ai.vercel.app"><img width="32%" src="./cards/railsage-ai.svg" alt="RailSage AI railway operations dashboard"/></a>
+<a href="https://github.com/Aditya-dxt/civicsentinel-ai"><img width="32%" src="./cards/civicsentinel.svg" alt="CivicSentinel civic intelligence platform"/></a>
+<a href="https://github.com/indeedvaibhav/BloodFlow"><img width="32%" src="./cards/bloodflow.svg" alt="BloodFlow healthcare backend"/></a>
+</div>
+
+## 03 // Systems in the Field
 
 ### RailSage AI · Railway Operations
 
@@ -86,7 +102,7 @@ A donor and hospital coordination backend for blood requests and donor responses
 
 </details>
 
-## 03 // Toolchain
+## 04 // Toolchain
 
 ### 01 · Languages
 
@@ -108,7 +124,7 @@ Spring Boot · Node · Express · PostgreSQL · MySQL
 <p><img src="https://skillicons.dev/icons?i=fastapi,leaflet,git,github" alt="FastAPI, Leaflet, Git, and GitHub"/></p>
 FastAPI · REST APIs · Maps · Git · AI/ML · RAG
 
-## 04 // Telemetry
+## 05 // Telemetry
 
 <img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
@@ -118,7 +134,7 @@ FastAPI · REST APIs · Maps · Git · AI/ML · RAG
 <a href="https://leetcode.com/u/Indeedvaibhav/">Open LeetCode profile ↗</a>
 </div>
 
-## 05 // Base + Current Direction
+## 06 // Base + Current Direction
 
 | Base | Current focus |
 |:---|:---|
@@ -126,7 +142,7 @@ FastAPI · REST APIs · Maps · Git · AI/ML · RAG
 | **3rd year** · Kanpur, Uttar Pradesh, India | Spring Boot + PostgreSQL · React / Next.js |
 | **Open to** internships, hackathons, and open-source collaboration | AI/LLM applications · RAG · geospatial systems |
 
-## 06 // Make Contact
+## 07 // Make Contact
 
 **Have a useful problem to solve or a team to build with?**
 
