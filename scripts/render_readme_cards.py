@@ -62,25 +62,68 @@ def activity_card() -> str:
     return shell("Activity", "04 / telemetry", body, 220)
 
 
-def project_card(name: str, mark: str, summary: str, stack: str, link: str, index: int) -> str:
-    body = f'''<g class="enter" style="animation-delay:.12s"><circle class="pulse" cx="672" cy="61" r="4" fill="{RED}"/><text x="24" y="87" fill="{TEXT}" font-size="22" font-weight="700">{esc(mark)}  {esc(name)}</text><line x1="24" y1="101" x2="696" y2="101" stroke="{EDGE}"/><text x="24" y="130" fill="{MUTED}" font-size="12">{esc(summary)}</text><text x="24" y="160" fill="{TEXT}" font-size="10">{esc(stack)}</text><text x="24" y="193" fill="{RED}" font-size="10">OPEN PROJECT  ↗</text><text x="696" y="193" fill="{DIM}" font-size="9" text-anchor="end">{esc(link)}</text></g>'''
-    return shell(name, f"0{index} / field system", body, 220)
+def focus_areas_card() -> str:
+    width, height = 1080, 282
+    groups = [
+        ("01", "BUILD", "Java + DSA", "Spring Boot + REST APIs", "Backend engineering", "React + Next.js"),
+        ("02", "SYSTEMS", "Service + API design", "PostgreSQL + JPA", "Relational data modeling", "Maps + dashboards"),
+        ("03", "INTELLIGENCE", "Machine learning", "LLM-powered applications", "RAG concepts", "Civic decision support"),
+    ]
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        '<title id="title">Build, Systems, and Intelligence</title><desc id="desc">Three readable profile focus panels for Java and backend engineering, data systems, and applied AI.</desc>',
+        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17131a"/><stop offset="1" stop-color="#0b0d12"/></linearGradient><linearGradient id="line"><stop stop-color="#f04452"/><stop offset="1" stop-color="#f04452" stop-opacity="0"/></linearGradient></defs>',
+        f'<style>text{{font-family:{MONO}}}.panel{{opacity:0;animation:up .65s ease-out forwards}}@keyframes up{{from{{opacity:0;transform:translateY(9px)}}to{{opacity:1;transform:translateY(0)}}}}@media(prefers-reduced-motion:reduce){{.panel{{animation:none;opacity:1;transform:none}}}}</style>',
+        f'<rect x=".5" y=".5" width="1079" height="281" rx="14" fill="url(#bg)" stroke="{EDGE}"/><path d="M18 1h210" stroke="url(#line)" stroke-width="2"/>',
+        f'<text x="26" y="35" fill="{RED}" font-size="11" letter-spacing="2.5">PROFILE / ENGINEERING FOCUS</text><text x="1054" y="35" fill="{DIM}" font-size="10" text-anchor="end">BUILD → SYSTEMS → INTELLIGENCE</text>',
+    ]
+    for index, (number, name, *items) in enumerate(groups):
+        x = 20 + index * 352
+        delay = .08 + index * .13
+        parts.append(f'<g class="panel" style="animation-delay:{delay:.2f}s"><rect x="{x}" y="55" width="332" height="207" rx="11" fill="{PANEL}" stroke="{EDGE}"/><text x="{x+18}" y="84" fill="{RED}" font-size="10" letter-spacing="1.4">{number} / FOCUS</text><text x="{x+18}" y="112" fill="{TEXT}" font-size="20" font-weight="700">{esc(name)}</text><line x1="{x+18}" y1="126" x2="{x+314}" y2="126" stroke="{EDGE}"/>')
+        for row, item in enumerate(items):
+            y = 153 + row * 25
+            parts.append(f'<circle cx="{x+22}" cy="{y-4}" r="2.5" fill="{RED}"/><text x="{x+33}" y="{y}" fill="{MUTED}" font-size="13">{esc(item)}</text>')
+        parts.append('</g>')
+    parts.append('</svg>')
+    return ''.join(parts)
+
+
+def toolchain_card() -> str:
+    width, height = 1080, 374
+    modules = [
+        (24, 70, 326, "01", "LANGUAGES", "Java · Python", "JavaScript · TypeScript", "DSA / problem solving"),
+        (377, 70, 326, "02", "PRODUCT UI", "React · Next.js", "Vite · Tailwind CSS", "Interfaces / web apps"),
+        (730, 70, 326, "03", "SERVICES", "Spring Boot · Node.js", "Express · FastAPI", "REST APIs / backend"),
+        (24, 218, 510, "04", "DATA + PERSISTENCE", "PostgreSQL · MySQL · SQL", "JPA / Hibernate", "Relational modeling"),
+        (546, 218, 510, "05", "APPLIED INTELLIGENCE", "Machine learning · LLM APIs", "RAG concepts · maps · Leaflet", "Geospatial / data-led tools"),
+    ]
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        '<title id="title">Engineering Toolchain</title><desc id="desc">A connected map of Vaibhav Tripathi’s languages, product UI, backend services, data systems, and applied intelligence technologies.</desc>',
+        f'<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17131a"/><stop offset="1" stop-color="{BG}"/></linearGradient><linearGradient id="wire"><stop stop-color="{RED}" stop-opacity=".8"/><stop offset="1" stop-color="#58a6ff" stop-opacity=".55"/></linearGradient></defs>',
+        f'<style>text{{font-family:{MONO}}}.mod{{opacity:0;animation:up .55s ease-out forwards}}.trace{{stroke-dasharray:7 8;animation:flow 8s linear infinite}}@keyframes up{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:translateY(0)}}}}@keyframes flow{{to{{stroke-dashoffset:-120}}}}@media(prefers-reduced-motion:reduce){{.mod{{animation:none;opacity:1;transform:none}}.trace{{animation:none}}}}</style>',
+        f'<rect x=".5" y=".5" width="1079" height="373" rx="14" fill="url(#bg)" stroke="{EDGE}"/><path d="M18 1h210" stroke="{RED}" stroke-width="2"/>',
+        f'<text x="26" y="35" fill="{RED}" font-size="11" letter-spacing="2.5">TOOLCHAIN / SYSTEM MAP</text><text x="1054" y="35" fill="{DIM}" font-size="10" text-anchor="end">CODE → PRODUCT → DECISIONS</text>',
+        f'<path class="trace" d="M350 133h27m326 0h27M187 194v11q0 14 14 14h78M893 194v11q0 14-14 14h-78M534 280h12" fill="none" stroke="url(#wire)" stroke-width="1.5"/>',
+    ]
+    for index, (x, y, w, number, label, line1, line2, caption) in enumerate(modules):
+        delay = .08 + index * .08
+        parts.append(f'<g class="mod" style="animation-delay:{delay:.2f}s"><rect x="{x}" y="{y}" width="{w}" height="124" rx="10" fill="{PANEL}" stroke="{EDGE}"/><text x="{x+17}" y="{y+25}" fill="{RED}" font-size="10" letter-spacing="1.2">{number} / {esc(label)}</text><text x="{x+17}" y="{y+56}" fill="{TEXT}" font-size="14" font-weight="650">{esc(line1)}</text><text x="{x+17}" y="{y+79}" fill="{TEXT}" font-size="14" font-weight="650">{esc(line2)}</text><text x="{x+17}" y="{y+105}" fill="{MUTED}" font-size="10">{esc(caption)}</text><circle cx="{x+w-17}" cy="{y+23}" r="3" fill="{RED}"/></g>')
+    parts.append(f'<text x="26" y="362" fill="{DIM}" font-size="9" letter-spacing="1.4">FOUNDATIONS IN JAVA + DSA · BUILT THROUGH BACKEND, WEB, DATA, AND APPLIED AI</text><text x="1054" y="362" fill="{DIM}" font-size="9" text-anchor="end">CURRENT STACK / CURATED</text></svg>')
+    return ''.join(parts)
 
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
     cards = {
-        "build.svg": general_card("BUILD", "Java → shipped software", [("Java + Data Structures & Algorithms", "CORE PRACTICE"), ("Spring Boot + REST APIs", "BACKEND"), ("Backend engineering + data modeling", "SYSTEMS"), ("React + Next.js", "PRODUCT UI")], 1),
-        "systems.svg": general_card("SYSTEMS", "Make the boundaries clear", [("Spring Boot · PostgreSQL · JPA/Hibernate", "SERVICES"), ("REST APIs · Node.js · Express", "INTEGRATION"), ("Relational modeling · persistence", "DATA"), ("Geospatial maps · operational dashboards", "CONTEXT")], 2),
-        "intelligence.svg": general_card("INTELLIGENCE", "AI that can explain its work", [("Machine learning + AI-powered applications", "EXPLORING"), ("LLM APIs · retrieval-augmented generation", "RETRIEVAL"), ("Civic workflows · location-aware decisions", "CIVIC TECH"), ("Human-readable operator reasoning", "APPLIED AI")], 3),
+        "focus-areas.svg": focus_areas_card(),
         "activity.svg": activity_card(),
-        "railsage-ai.svg": project_card("RailSage AI", "↗", "Railway operations dashboard with live maps and AI reasoning.", "React 19 · Vite · Express · Leaflet · Claude API", "FAR AWAY HACKATHON 2026", 5),
-        "civicsentinel.svg": project_card("CivicSentinel", "⌖", "Civic intelligence for complaints and administrative workflows.", "AI-assisted classification · RAG concepts · Geospatial data", "CITIZEN + ADMIN WORKFLOWS", 6),
-        "bloodflow.svg": project_card("BloodFlow", "+", "Healthcare backend coordinating donors, hospitals, and requests.", "Spring Boot · PostgreSQL · JPA/Hibernate", "RELATIONAL DOMAIN MODEL", 7),
+        "toolchain.svg": toolchain_card(),
     }
     for filename, svg in cards.items():
         (OUT / filename).write_text(svg + "\n", encoding="utf-8")
-    print(f"Rendered {len(cards)} animated SVG cards to {OUT.relative_to(ROOT)}")
+    print(f"Rendered {len(cards)} profile SVG cards to {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ on:
     paths:
       - "README.md"
       - "scripts/**"
+      - "assets/profile/3d-contribution-settings.json"
       - ".github/workflows/profile-art.yml"
 
 permissions:
@@ -19,6 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Generate 3D contribution profile
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: assets/profile/3d-contribution-settings.json
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -33,5 +40,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile contribution art [skip ci]"
-          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg leetcode.svg assets/leetcode-badges/* cards/*.svg"
+          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg leetcode.svg assets/leetcode-badges/* cards/*.svg profile-3d-contrib/*.svg"
 

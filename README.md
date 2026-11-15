@@ -45,17 +45,17 @@ I like taking a real problem from **first sketch → working system**: model the
 ## 02 // Animated Readouts
 
 <div align="center">
-<img width="32%" src="./cards/build.svg" alt="BUILD: Java, DSA, Spring Boot, backend engineering, and React or Next.js"/>
-<img width="32%" src="./cards/systems.svg" alt="SYSTEMS: backend services, data modeling, APIs, and geospatial dashboards"/>
-<img width="32%" src="./cards/intelligence.svg" alt="INTELLIGENCE: machine learning, LLM applications, retrieval, and civic workflows"/>
+<img width="100%" src="./cards/focus-areas.svg" alt="Build, Systems, and Intelligence: Java and DSA, backend systems and data modeling, and applied AI"/>
 </div>
 
 <img width="100%" src="./cards/activity.svg" alt="GitHub contribution activity for the last 12 months, generated from repository contribution data"/>
 
 <div align="center">
-<a href="https://railsage-ai.vercel.app"><img width="32%" src="./cards/railsage-ai.svg" alt="RailSage AI railway operations dashboard"/></a>
-<a href="https://github.com/Aditya-dxt/civicsentinel-ai"><img width="32%" src="./cards/civicsentinel.svg" alt="CivicSentinel civic intelligence platform"/></a>
-<a href="https://github.com/indeedvaibhav/BloodFlow"><img width="32%" src="./cards/bloodflow.svg" alt="BloodFlow healthcare backend"/></a>
+<a href="https://railsage-ai.vercel.app"><img width="49%" src="./assets/projects/railsage-ai.jpg" alt="RailSage AI: AI-powered railway safety and intelligence"/></a>
+<a href="https://github.com/Aditya-dxt/civicsentinel-ai"><img width="49%" src="./assets/projects/civicsentinel.jpg" alt="CivicSentinel AI: smart-city issue detection and resolution"/></a>
+</div>
+<div align="center">
+<img width="49%" src="./assets/projects/orbitra.jpg" alt="Orbitra: energy-aware satellite-to-drone change verification"/>
 </div>
 
 ## 03 // Systems in the Field
@@ -86,11 +86,11 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 <br/>
 
-### BloodFlow · Healthcare Backend
+### Orbitra · Satellite-to-Drone Verification
 
-A donor and hospital coordination backend for blood requests and donor responses, built around a relational domain model.
+An energy-aware satellite-to-drone change-verification concept, shown with before/after imagery, AI-assisted prioritization, mission planning, and battery reserve awareness.
 
-**Spring Boot · PostgreSQL · JPA/Hibernate**
+**Satellite change verification · AI-assisted planning · Energy-aware missions**
 
 <details>
 <summary><b>More builds</b> · ParkSense · eSwasthya · VarshaDrishti · Portfolio</summary>
@@ -104,31 +104,15 @@ A donor and hospital coordination backend for blood requests and donor responses
 
 ## 04 // Toolchain
 
-### 01 · Languages
+<img width="100%" src="./cards/toolchain.svg" alt="Engineering toolchain map: languages, product UI, backend services, databases, machine learning, LLMs, RAG, and geospatial tools"/>
 
-<p><img src="https://skillicons.dev/icons?i=java,python,js,ts" alt="Java, Python, JavaScript, and TypeScript"/></p>
-Java · Python · JavaScript · TypeScript
-
-### 02 · Product UI
-
-<p><img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind" alt="React, Next.js, Vite, and Tailwind CSS"/></p>
-React · Next.js · Vite · Tailwind
-
-### 03 · Services + Data
-
-<p><img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres" alt="Spring Boot, Node.js, Express, and PostgreSQL"/></p>
-Spring Boot · Node · Express · PostgreSQL · MySQL
-
-### 04 · Applied Systems
-
-<p><img src="https://skillicons.dev/icons?i=fastapi,leaflet,git,github" alt="FastAPI, Leaflet, Git, and GitHub"/></p>
-FastAPI · REST APIs · Maps · Git · AI/ML · RAG
+<p align="center"><a href="https://skillicons.dev"><img width="65%" src="https://skillicons.dev/icons?i=java,spring,react,nextjs,postgres,python,fastapi,git&perline=8" alt="Java, Spring Boot, React, Next.js, PostgreSQL, Python, FastAPI, and Git"/></a></p>
 
 ## 05 // Telemetry
 
 <img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
-<img width="100%" src="./contrib-heatmap.svg" alt="Daily GitHub contribution heatmap"/>
+<img width="100%" src="./profile-3d-contrib/profile-crimson.svg" alt="Animated 3D GitHub contribution calendar with language and activity summaries"/>
 
 <div align="center">
 <a href="https://leetcode.com/u/Indeedvaibhav/">Open LeetCode profile ↗</a>

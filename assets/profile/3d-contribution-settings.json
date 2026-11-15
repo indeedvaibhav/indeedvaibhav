@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-crimson.svg",
+  "backgroundColor": "#0b0d12",
+  "foregroundColor": "#f1f3f5",
+  "strongColor": "#ff7682",
+  "weakColor": "#89919e",
+  "radarColor": "#f04452",
+  "growingAnimation": true,
+  "contribColors": [
+    "#171920",
+    "#3c1820",
+    "#72212c",
+    "#b62d3b",
+    "#f04452"
+  ]
+}
