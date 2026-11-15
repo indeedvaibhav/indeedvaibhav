@@ -8,12 +8,14 @@ other profile art can still refresh.
 from __future__ import annotations
 
 import datetime as dt
+from io import BytesIO
 import json
 import re
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 USERNAME = "Indeedvaibhav"
@@ -101,7 +103,10 @@ def fetch_profile() -> dict:
             if not content_type.startswith("image/") or len(icon_response.content) > 2_000_000:
                 raise RuntimeError(f"Invalid image returned for LeetCode badge {badge_id}.")
             icon_path.parent.mkdir(parents=True, exist_ok=True)
-            icon_path.write_bytes(icon_response.content)
+            with Image.open(BytesIO(icon_response.content)) as image:
+                image = image.convert("RGBA")
+                image.thumbnail((128, 128), Image.Resampling.LANCZOS)
+                image.save(icon_path, format="PNG", optimize=True)
         badges.append(
             {
                 "id": badge_id,

@@ -2,10 +2,10 @@
 """Render the saved LeetCode totals and earned badges as one self-contained SVG."""
 from __future__ import annotations
 
+import base64
 import html
 import json
 from pathlib import Path
-from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "data" / "leetcode.json").read_text(encoding="utf-8"))
@@ -16,17 +16,20 @@ def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
-def image_url(filename: str) -> str | None:
+def embedded_image(filename: str) -> str | None:
     path = (BADGE_DIR / filename).resolve()
     if BADGE_DIR.resolve() not in path.parents or not path.is_file():
         return None
     if path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp"}:
         return None
-    encoded_name = quote(path.name)
-    return (
-        "https://raw.githubusercontent.com/indeedvaibhav/"
-        f"indeedvaibhav/main/assets/leetcode-badges/{encoded_name}"
-    )
+    mime = {
+        ".png": "image/png",
+        ".jpg": "image/jpeg",
+        ".jpeg": "image/jpeg",
+        ".webp": "image/webp",
+    }[path.suffix.lower()]
+    payload = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime};base64,{payload}"
 
 
 def render() -> str:
@@ -72,7 +75,7 @@ def render() -> str:
         x = 28 + column * (card_w + gap)
         y = badge_top + row * (card_h + gap)
         parts.append(f'<rect x="{x}" y="{y}" width="{card_w}" height="{card_h}" rx="9" fill="#161b22" stroke="#30363d"/>')
-        icon = image_url(str(badge.get("icon_file", "")))
+        icon = embedded_image(str(badge.get("icon_file", "")))
         if icon:
             parts.append(f'<image href="{esc(icon)}" x="{x + 10}" y="{y + 16}" width="60" height="60" preserveAspectRatio="xMidYMid meet"/>')
         else:
