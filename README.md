@@ -167,7 +167,7 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 <img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
-<img width="100%" src="./profile-3d-contrib/profile-crimson.svg" alt="Animated 3D GitHub contribution calendar with language and activity summaries"/>
+<img width="100%" src="./profile-3d-contrib/profile-south-season-animate.svg" alt="Animated southern-season 3D GitHub contribution calendar with contribution and language summaries"/>
 
 <div align="center">
 <a href="https://leetcode.com/u/Indeedvaibhav/">Open LeetCode profile ↗</a>
