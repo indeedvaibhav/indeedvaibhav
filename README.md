@@ -158,13 +158,13 @@ I like taking a real problem from **first sketch → working system**: model the
 
 | Event | Role / result | Venue / track |
 |:---|:---|:---|
-| **India Innovates 2026** | Team lead · Finalist | Bharat Mandapam, New Delhi |
-| **FAR AWAY 2026 (Zuup)** | Team lead · Semi-finalist | Delhi → Japan finale |
+| **India Innovates 2026** | Team member · Finalist | Bharat Mandapam, New Delhi |
+| **FAR AWAY 2026 (Zuup)** | Team member · Semi-finalist | Delhi → Japan finale |
 | **Smart India Hackathon 2026** | Team member | ISRO problem track |
-| **National AI/ML Hackathon (AVEVA)** | Team lead | IIT Hyderabad · YUVAAN 2026 |
-| **Hack It Out — Technex ’26** | Team lead | IIT BHU, Varanasi |
-| **Hack for Green Bharat** | Team lead | Microsoft Office, Gurugram |
-| **iQOO Hackathon 2026** | Team lead | Bengaluru · Pune · Chennai · Hyderabad |
+| **National AI/ML Hackathon (AVEVA)** | Team member | IIT Hyderabad · YUVAAN 2026 |
+| **Hack It Out — Technex ’26** | Team member | IIT BHU, Varanasi |
+| **Hack for Green Bharat** | Team member | Microsoft Office, Gurugram |
+| **iQOO Hackathon 2026** | Team member | Bengaluru · Pune · Chennai · Hyderabad |
 
 ## Education & Leadership
 
