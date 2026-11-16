@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/profile/masthead.svg" alt="Vaibhav Tripathi — Java, backend, full-stack, and applied AI builder"/>
+<img width="100%" src="./assets/profile/masthead.svg" alt="Vaibhav Tripathi — third-year CSE student at PSIT Kanpur, currently learning AI and machine learning"/>
 
 <br/>
 
@@ -14,7 +14,9 @@
 
 <br/>
 
-## 01 // Operator Profile
+## About Me
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 <table>
 <tr>
@@ -42,7 +44,9 @@ I like taking a real problem from **first sketch → working system**: model the
 </tr>
 </table>
 
-## 02 // Animated Readouts
+## My Focus
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 <div align="center">
 <img width="100%" src="./cards/focus-areas.svg" alt="Build, Systems, and Intelligence: Java and DSA, backend systems and data modeling, and applied AI"/>
@@ -50,7 +54,9 @@ I like taking a real problem from **first sketch → working system**: model the
 
 <img width="100%" src="./cards/activity.svg" alt="GitHub contribution activity for the last 12 months, generated from repository contribution data"/>
 
-## 03 // Systems in the Field
+## Projects
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 <table>
 <tr>
@@ -68,11 +74,12 @@ I like taking a real problem from **first sketch → working system**: model the
 
 <br/>
 
-### GramSetu · Village Infrastructure
-
-A village-infrastructure digital twin concept for Panchayat planning, combining village-level data, analytics, and geospatial context.
-
-**Decision support · Data visualization · Maps**
+<table>
+<tr>
+<td width="48%" valign="top"><img width="100%" src="./assets/projects/gramsetu.jpg" alt="GramSetu: AI for rural India"/></td>
+<td width="52%" valign="middle"><h3>GramSetu · AI for Rural India</h3><p>A village-infrastructure digital twin concept for Panchayat planning, combining village-level data, analytics, and geospatial context.</p><p><b>Decision support · Data visualization · Maps</b></p></td>
+</tr>
+</table>
 
 <br/>
 
@@ -93,7 +100,9 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 </details>
 
-## 04 // Toolchain
+## Tools I Use
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 <table>
 <tr><th>Languages</th><th>Frontend</th><th>Backend</th><th>Data</th><th>AI / ML</th><th>Infrastructure</th></tr>
@@ -141,7 +150,9 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 
 *Core problem-solving: Data Structures & Algorithms (DSA) · backend engineering · data modeling.*
 
-## 05 // Hackathons
+## Hackathons & Highlights
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 **12 hackathons led** — from national finals to international semi-finals. Selected events:
 
@@ -155,15 +166,21 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 | **Hack for Green Bharat** | Team lead | Microsoft Office, Gurugram |
 | **iQOO Hackathon 2026** | Team lead | Bengaluru · Pune · Chennai · Hyderabad |
 
-## 06 // Education
+## Education & Leadership
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 | Programme | Institution | Result | Period |
 |:---|:---|:---:|:---:|
 | **B.Tech, Computer Science & Engineering** | Pranveer Singh Institute of Technology, Kanpur | **CGPA 7** · 3rd year | 2024–2028 |
-| **ISC — Class XII (PCM)** | St. Thomas School, Kanpur | 83.4% · Sports Captain | 2023–2024 |
-| **ICSE — Class X** | St. Thomas School, Kanpur | 91.2% · House Captain | 2021–2022 |
+| **ISC — Class XII (PCM)** | St. Thomas School, Kanpur | 83.4% · School Captain | 2023–2024 |
+| **ICSE — Class X** | St. Thomas School, Kanpur | 91.2% | 2021–2022 |
 
-## 07 // Telemetry
+**Leadership:** House Captain for three consecutive terms.
+
+## Coding Activity
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 <img width="100%" src="./leetcode.svg" alt="LeetCode: solved count, difficulty breakdown, and earned badges"/>
 
@@ -173,7 +190,9 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 <a href="https://leetcode.com/u/Indeedvaibhav/">Open LeetCode profile ↗</a>
 </div>
 
-## 08 // Base + Current Direction
+## What I’m Working Toward
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 | Base | Current focus |
 |:---|:---|
@@ -181,7 +200,9 @@ A village-infrastructure digital twin concept for Panchayat planning, combining 
 | **3rd year** · Kanpur, Uttar Pradesh, India | Spring Boot + PostgreSQL · React / Next.js |
 | **Open to** internships, hackathons, and open-source collaboration | AI/LLM applications · RAG · geospatial systems |
 
-## 09 // Make Contact
+## Get in Touch
+
+<img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
 **Have a useful problem to solve or a team to build with?**
 

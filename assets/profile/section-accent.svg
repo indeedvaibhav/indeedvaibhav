@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="8" viewBox="0 0 96 8" role="img" aria-label="Animated warm accent">
+<defs><linearGradient id="glint"><stop stop-color="#F04452" stop-opacity="0"/><stop offset=".5" stop-color="#FFB454"/><stop offset="1" stop-color="#F04452" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="2" width="94" height="4" rx="2" fill="#40262B"/>
+<rect x="-32" y="2" width="34" height="4" rx="2" fill="url(#glint)"><animate attributeName="x" from="-32" to="96" dur="3.8s" repeatCount="indefinite"/></rect>
+</svg>
