@@ -18,7 +18,7 @@
 
 <table>
 <tr>
-<td width="40%" valign="top"><img width="100%" src="./assets/profile/portrait-orbit.gif" alt="Portrait selfie of Vaibhav Tripathi framed by animated orbital signals, with Java, backend, and applied AI labels."/></td>
+<td width="40%" valign="top"><img width="100%" src="./assets/profile/profile-badge.gif" alt="Full-scene portrait of Vaibhav Tripathi displayed in a gently swinging profile badge."/></td>
 <td width="60%" valign="top">
 
 I’m a third-year **Computer Science & Engineering student at PSIT Kanpur**, building across Java, backend systems, full-stack products, and applied AI.
