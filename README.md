@@ -154,7 +154,7 @@ I like taking a real problem from **first sketch → working system**: model the
 
 <img src="./assets/profile/section-accent.svg" width="96" height="8" alt=""/>
 
-**12 hackathons led** — from national finals to international semi-finals. Selected events:
+**Experience across 12 hackathons** — from national finals to international semi-finals. Selected events:
 
 | Event | Role / result | Venue / track |
 |:---|:---|:---|
