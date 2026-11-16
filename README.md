@@ -18,7 +18,7 @@
 
 <table>
 <tr>
-<td width="40%" valign="top"><img width="100%" src="./assets/profile/identity-card.svg" alt="Identity readout: CSE student at PSIT Kanpur, focused on Java, DSA, backend, and full-stack systems"/></td>
+<td width="40%" valign="top"><a href="https://reactbits.dev/micro/paper-crumple"><img width="100%" src="./assets/profile/paper-crumple.svg" alt="Animated paper crumple: my profile identity card folds into a textured paper ball and unfolds"/></a></td>
 <td width="60%" valign="top">
 
 I’m a third-year **Computer Science & Engineering student at PSIT Kanpur**, building across Java, backend systems, full-stack products, and applied AI.
