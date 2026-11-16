@@ -21,11 +21,11 @@
 <td width="40%" valign="top"><img width="100%" src="./assets/profile/profile-badge.gif" alt="Full-scene portrait of Vaibhav Tripathi displayed in a gently swinging profile badge."/></td>
 <td width="60%" valign="top">
 
-I’m a third-year **Computer Science & Engineering student at PSIT Kanpur**, building across Java, backend systems, full-stack products, and applied AI.
+I’m a third-year **Computer Science & Engineering student at PSIT Kanpur**, building with Java, backend systems, full-stack projects, and applied AI. Right now, I’m focusing on improving my AI and machine learning skills.
 
-I like taking a real problem from **first sketch → working system**: model the data, shape the API, build the interface, then tighten the details.
+I like taking a real problem from **first sketch → working system**: model the data, shape the API, build the interface, then improve the details.
 
-**Current coordinates:** Java and DSA · Spring Boot and PostgreSQL · React and Next.js · AI/LLM applications · geospatial systems.
+**Current coordinates:** Java and DSA · Spring Boot and PostgreSQL · React and Next.js · learning AI/ML · geospatial systems.
 
 > **Build it. Understand it. Then make it better.**
 
