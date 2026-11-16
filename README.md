@@ -18,7 +18,7 @@
 
 <table>
 <tr>
-<td width="40%" valign="top"><a href="https://reactbits.dev/micro/paper-crumple"><img width="100%" src="./assets/profile/paper-crumple.gif" alt="Animated paper crumple: my profile identity card folds into a textured paper ball and unfolds"/></a></td>
+<td width="40%" valign="top"><img width="100%" src="./assets/profile/orbit-identity.gif" alt="Animated orbital monogram for Vaibhav Tripathi, with Java, backend systems, and applied AI shown as moving signals."/></td>
 <td width="60%" valign="top">
 
 I’m a third-year **Computer Science & Engineering student at PSIT Kanpur**, building across Java, backend systems, full-stack products, and applied AI.
